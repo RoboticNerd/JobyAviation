@@ -62,3 +62,69 @@
 	  </details>
     </ul>
 </details>
+
+
+<!-- USAGE -->
+
+
+<details>
+  <summary><h1>Usage</h1><br>
+	How to run the simulator and look at the results. 
+  </summary>
+    <ul>
+      <details>
+        <summary>
+          <h3>Building</h3><br>
+	        How to build the repo. It's pretty chill, but here's an overview.
+	    </summary>
+          <ul><br>
+	        To build the project.<br>
+            <ul>
+	          1. Clone the repo <br>
+	          2. Open up a terminal window to the repo <br>
+	            <ul>
+                  Then you can actually build with: <br>
+                  <ul>
+                     ```cmake -S . -B build``` 
+                  </ul>
+                </ul>
+	          3. Build the repo <br>
+	            <ul>
+                  Then you can actually build with: <br>
+                  <ul>
+                     ```cmake --build build``` 
+                  </ul>
+                </ul>
+	        </ul><br>
+            Your first build may take a while with the implementation of catch2 for unit testing.<br>
+          </ul>
+      </details>
+      <details>
+        <summary>
+	      <h3>Running</h3><br>
+	      Once it's all compiled, you can run the simulation. Here you'll see how.
+	    </summary>
+        <ul><br>
+          To run the results, from a terminal window opened to your repo:
+        <ul>
+          ```.\build\Debug\mymain.exe```
+        </ul>  
+      </details>
+      <details>
+        <summary>
+          <h3>Testing</h3><br>
+	      Hopefully you care about testing, here we'll cover how to run/visualize your tests.
+        </summary>
+        <ul><br>
+          To run your tests there are 2 methods I recommend.<br><br>
+	  <strong>First Option:</strong><br>
+	  Once built, from a terminal opened to your repo:
+          <ul>
+	    ```.\build\test\Debug\unit_tests.exe```
+          </ul><br>
+          <strong>Second Option:</strong><br>
+          Use TestMate. It's a package for Visual Studio Code that provides visual cues in your editor about which test is failing. It takes like 10 seconds to add to VSC. Then, in one button click, you can see all of your tests, and see which tests and assertions failed, visually (and since I'm a visual person, I'm recommending it here). <br>
+	  **:smiley:**
+	</details>
+  </ul>
+</details>
