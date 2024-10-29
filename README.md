@@ -231,6 +231,10 @@
           <strong>Vehicle Fleet:</strong> This is a pretty simple object, as much of the complexity has been abstracted away by now. It serves to manage and coordinate charging station use, and to summarize fleet metrics. <br><br>
           <strong>main.cpp:</strong> To simulate any fleet size requires only a few lines of code. Then you itterate until the simulation is complete. (1 minute step size today). Main.cpp also acts as the "example".<br><br>
       </ul>
+      <h4> Detailed Level Overview:</h4>
+        <ul>
+          <strong>Lets talk in person ;) </strong>
+      </ul>
     </details>
   </ul>
 </details>
