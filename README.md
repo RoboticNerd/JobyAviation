@@ -238,7 +238,7 @@
 
 <br><br><br>Example Results/Output:
 ```
-Vehicle Types:                                  [ Alpha   Bravo   Charlie Delta   Echo    ]
+Vehicle Types:                                  [ Alpha   Bravo   Charlie Delta   Echo    ];
 Average flight time per flight (min):           [ 3       4       3       4       15      ];
 Average distance per flight (km):               [ 11.6165 12.7962 15.2422 9.71086 12.7238 ];
 Average time charging per charge session (min): [ 0       39      17      0       0       ];

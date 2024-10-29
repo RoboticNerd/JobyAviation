@@ -358,7 +358,7 @@ void VehicleFleet::finalPrint() {
     }
 
     // Now lets print it all out
-    std::cout << "Vehicle Types:                                  [ Alpha   Bravo   Charlie Delta   Echo    ]" << std::endl;
+    std::cout << "Vehicle Types:                                  [ Alpha   Bravo   Charlie Delta   Echo    ];" << std::endl;
     std::cout << "Average flight time per flight (min):           [ " << alpha.flight_time/alpha.flights << "       " << bravo.flight_time/bravo.flights << "       " << charlie.flight_time/charlie.flights << "       " << delta.flight_time/delta.flights << "       " << echo.flight_time/echo.flights << "      ];" << std::endl; 
     std::cout << "Average distance per flight (km):               [ " << alpha.flight_distance/alpha.flights << " " << bravo.flight_distance/bravo.flights << " " << charlie.flight_distance/charlie.flights << " " << delta.flight_distance/delta.flights << " " << echo.flight_distance/echo.flights << " ];" << std::endl; 
     std::cout << "Average time charging per charge session (min): [ " << alpha.time_charging/alpha.charges << "       " << bravo.time_charging/bravo.charges << "      " << charlie.time_charging/charlie.charges << "      " << delta.time_charging/delta.charges << "       " << echo.time_charging/echo.charges << "       ];" << std::endl; 
