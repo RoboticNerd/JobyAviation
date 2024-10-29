@@ -82,3 +82,26 @@ class Vehicle {
         double fault_probability;               // per min
 
 };
+
+
+// Manages the entire fleet. Also coordinates charging amongst the vehicles.
+//    This is called for every step during the simulation (current step
+//    size, 1 min).
+class VehicleFleet {
+    public:
+        VehicleFleet(int vehicles_count, int sim_time);
+        
+        void moveOneMin();
+        void handleCharging();
+        void print();
+        void finalPrint();
+
+        std::vector<Vehicle> vehicles;
+
+        int presentSimulationTime = 0;
+        int maxSimulationTime = 0;
+
+        std::vector<int> chargers;
+        std::vector<int> needing_charging;
+
+};

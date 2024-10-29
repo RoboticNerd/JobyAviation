@@ -100,3 +100,38 @@ TEST_CASE("Vehicle - does vehicle get off charger", "[Vehicle]") {
     REQUIRE(vvv0.vehicle_state != 6);                          // make sure it gets off the charger
     REQUIRE(vvv0.battery_charge > vvv0.battery_capacity);
 }
+
+
+// ============== VEHICLE FLEET =====================================
+
+TEST_CASE("VehicleFleet - initialization", "[VehicleFleet]") {
+    VehicleFleet vf0(20, 180);                                  // make fleet
+
+    REQUIRE(vf0.vehicles.size() == 20);                         // check size & sim time
+    REQUIRE(vf0.maxSimulationTime == 180);
+}
+
+TEST_CASE("VehicleFleet - vehicles moving?", "[VehicleFleet]") {
+    VehicleFleet vf0(4, 180);                                  // make a fleet and start moving
+    vf0.moveOneMin();
+    vf0.moveOneMin();                                           // check some stats
+    REQUIRE(vf0.vehicles[1].vehicle_state > 1);                 //   on a vehicle to make sure they are doing their thing
+    REQUIRE(vf0.presentSimulationTime > 1);                     //   on a fleet variable, to make sure fleet tracking is happening too
+}
+
+TEST_CASE("VehicleFleet - check if empty vehicles will queue + charge", "[VehicleFleet]") {
+    VehicleFleet vf0(20, 180);                                  // make a fleet of 20
+    for (int i = 0 ; i < vf0.vehicles.size() ; ++i){            // kill fleet batteries
+        vf0.vehicles[i].battery_charge = 0;                     // make vehicles wait for charger
+        vf0.vehicles[i].vehicle_state = 5;
+    }
+
+    vf0.moveOneMin();                                           // let the queue sort itself
+    vf0.moveOneMin();                   
+    vf0.moveOneMin();
+    vf0.moveOneMin();                       
+                                                                
+    REQUIRE(vf0.needing_charging.size() == 17);                 // 3 should be on the charger
+    REQUIRE(vf0.chargers.size() == 3);                          // and 17 should be waiting
+}
+
