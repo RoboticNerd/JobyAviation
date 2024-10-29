@@ -1,0 +1,5 @@
+add_test( [==[PassengerGroup - create passengers]==] C:/Users/frank/source/repos/JobyAviation/build/test/Debug/unit_tests.exe [==[PassengerGroup - create passengers]==]  )
+set_tests_properties( [==[PassengerGroup - create passengers]==] PROPERTIES WORKING_DIRECTORY C:/Users/frank/source/repos/JobyAviation/build/test)
+add_test( [==[PassengerGroup - distance]==] C:/Users/frank/source/repos/JobyAviation/build/test/Debug/unit_tests.exe [==[PassengerGroup - distance]==]  )
+set_tests_properties( [==[PassengerGroup - distance]==] PROPERTIES WORKING_DIRECTORY C:/Users/frank/source/repos/JobyAviation/build/test)
+set( unit_tests_TESTS [==[PassengerGroup - create passengers]==] [==[PassengerGroup - distance]==])

@@ -1,0 +1,2 @@
+add_library(classes classes.cpp)
+target_include_directories(classes PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

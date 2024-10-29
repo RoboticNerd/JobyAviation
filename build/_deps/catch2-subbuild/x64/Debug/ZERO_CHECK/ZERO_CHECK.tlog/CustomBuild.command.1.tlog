@@ -1,0 +1,10 @@
+^C:\USERS\FRANK\SOURCE\REPOS\JOBYAVIATION\BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\908659241B1803EDCDD9BAD166AE4013\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/source/repos/JobyAviation/build/_deps/catch2-subbuild -BC:/Users/frank/source/repos/JobyAviation/build/_deps/catch2-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/frank/source/repos/JobyAviation/build/_deps/catch2-subbuild/catch2-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
