@@ -1,6 +1,6 @@
-^C:\USERS\FRANK\SOURCE\REPOS\JOBYAVIATION\BUILD\_DEPS\CATCH2-SUBBUILD\CMAKELISTS.TXT
+^C:\USERS\FRANK\DOCUMENTS\JOBYAVIATION\BUILD\_DEPS\CATCH2-SUBBUILD\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/source/repos/JobyAviation/build/_deps/catch2-subbuild -BC:/Users/frank/source/repos/JobyAviation/build/_deps/catch2-subbuild --check-stamp-file C:/Users/frank/source/repos/JobyAviation/build/_deps/catch2-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/Documents/JobyAviation/build/_deps/catch2-subbuild -BC:/Users/frank/Documents/JobyAviation/build/_deps/catch2-subbuild --check-stamp-file C:/Users/frank/Documents/JobyAviation/build/_deps/catch2-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

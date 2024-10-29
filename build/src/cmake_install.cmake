@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/frank/source/repos/JobyAviation/src
+# Install script for directory: C:/Users/frank/Documents/JobyAviation/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

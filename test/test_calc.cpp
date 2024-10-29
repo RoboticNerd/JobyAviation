@@ -26,3 +26,77 @@ TEST_CASE("PassengerGroup - distance", "[PassengerGroup]") {
 }
 
 
+// ============== VEHICLE =====================================
+
+TEST_CASE("Vehicle - loading vehicle stats correctly", "[Vehicle]") {
+    Vehicle vvv0(0);                                            // load up all 5 vehicles
+    Vehicle vvv1(1);
+    Vehicle vvv2(2);
+    Vehicle vvv3(3);
+    Vehicle vvv4(4);
+
+    REQUIRE(vvv0.company == "alpha");                           // check a few stats
+    REQUIRE(vvv1.cruise_speed >= 160);
+    REQUIRE(vvv2.battery_capacity == 220);
+    REQUIRE(vvv3.time_to_charge == 37.2);
+    REQUIRE(vvv4.energy_consumed_cruise >= 3.6);
+}
+
+TEST_CASE("Vehicle - load passengers", "[Vehicle]") {
+    Vehicle vvv0(0);                                            // start single vehicle sim
+    vvv0.moveOneMin();
+    vvv0.moveOneMin();
+    vvv0.moveOneMin();
+    REQUIRE(vvv0.vehicle_state > 1);                            // check some passenger stats
+    REQUIRE(vvv0.vehicle_passengers.size() > 0);
+    REQUIRE(vvv0.vehicle_passengers.size() <= vvv0.max_passengers);
+}
+
+TEST_CASE("Vehicle - reduce battery during flight", "[Vehicle]") {
+    Vehicle vvv0(0);                                            // start single vehicle sim
+    vvv0.moveOneMin();
+    vvv0.moveOneMin();
+    vvv0.moveOneMin();
+    REQUIRE(vvv0.battery_charge < vvv0.battery_capacity);       // check some battery stats
+    REQUIRE(vvv0.battery_charge > vvv0.battery_capacity*.8);
+}
+
+TEST_CASE("Vehicle - increasing distances during flight", "[Vehicle]") {
+    Vehicle vvv0(0);                                            // start single vehicle sim
+    vvv0.moveOneMin();
+    vvv0.moveOneMin();
+    vvv0.moveOneMin();
+    REQUIRE(vvv0.flight_distance > 0);                          // check vehicle/pass distance stats
+    REQUIRE(vvv0.vehicle_passengers.destination_distance < vvv0.distance_to_airport);
+}
+
+TEST_CASE("Vehicle - battery can be depleated", "[Vehicle]") {
+    Vehicle vvv0(0);                                            // run single vehicle sim for long time
+    for (int i = 0; i<1000 ; i++) {
+	    vvv0.moveOneMin();
+    }                                                           
+    vvv0.print();                                               // check to make sure stats make sense
+    REQUIRE(vvv0.battery_charge <= vvv0.energy_consumed_cruise*32);                         
+    REQUIRE(vvv0.vehicle_state == 5);
+    REQUIRE(vvv0.passengerKm < vvv0.max_passengers*vvv0.flight_distance);
+}
+
+TEST_CASE("Vehicle - battery charges and vehicle doesn't move during charging", "[Vehicle]") {
+    Vehicle vvv0(0);                                            // create vehicle
+    vvv0.battery_charge = 0;                                    // kill battery SoC
+    vvv0.vehicle_state = 6;                                     // set vehicle state
+    vvv0.moveOneMin();                                                                              
+    vvv0.moveOneMin();
+    REQUIRE(vvv0.battery_charge > 0);                          // check vehicle/pass distance stats
+    REQUIRE(vvv0.flight_distance == 0);
+}
+
+TEST_CASE("Vehicle - does vehicle get off charger", "[Vehicle]") {
+    Vehicle vvv0(0);                                            // create vehicle
+    vvv0.battery_charge = vvv0.battery_capacity*.999;           // leave battery right under full charge
+    vvv0.vehicle_state = 6;                                     // charge vehicle
+    vvv0.moveOneMin();                                                                              
+    vvv0.moveOneMin();
+    REQUIRE(vvv0.vehicle_state != 6);                          // make sure it gets off the charger
+    REQUIRE(vvv0.battery_charge > vvv0.battery_capacity);
+}

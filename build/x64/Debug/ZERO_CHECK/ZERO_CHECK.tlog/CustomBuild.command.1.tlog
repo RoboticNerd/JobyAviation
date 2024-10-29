@@ -1,6 +1,6 @@
-^C:\USERS\FRANK\SOURCE\REPOS\JOBYAVIATION\BUILD\CMAKEFILES\7D7CF9CB12C8A25952868B42AC08DB13\GENERATE.STAMP.RULE
+^C:\USERS\FRANK\DOCUMENTS\JOBYAVIATION\BUILD\CMAKEFILES\FFAF48D42C7D308C93DAE3CC69B82F83\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/source/repos/JobyAviation -BC:/Users/frank/source/repos/JobyAviation/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/frank/source/repos/JobyAviation/build/Dependencies.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/Documents/JobyAviation -BC:/Users/frank/Documents/JobyAviation/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/frank/Documents/JobyAviation/build/Dependencies.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -40,3 +40,45 @@ class PassengerGroup {
 };
 
 
+// Class for managing a vehicle and tracking its stats. It holds "PassengerGroups"
+//    and stores vehicle stats throughout the simulation.
+class Vehicle {
+    public:
+        Vehicle(int vehicle_type);
+        void moveOneMin();
+
+        void loadPassengers(PassengerGroup pass);
+        void unloadPassengers();
+        void print();
+
+        int vehicle_state = 1;                  // 1) waiting for passengers
+                                                // 2) flying to b 
+                                                // 3) waiting for return passengers
+                                                // 4) flying to airport
+                                                // 5) waiting for charger
+                                                // 6) charging
+                                                // 10) faulted out
+
+        // tracked assets
+        int faults = 0;                         // count
+        int flight_time = 0;                    // min
+        double flight_distance = 0;             // km
+        double battery_charge;                  // kWh
+        int distance_to_airport = 0;            // km
+        double passengerKm = 0;                 // passenger km
+        PassengerGroup vehicle_passengers;      // passenger group
+        int charging_time = 0;                  // min
+
+        int charges = 0;
+        int flights = 0;                        // #
+
+        // static vehicle preloads
+        std::string company;                    // name
+        double cruise_speed;                    // kph
+        double battery_capacity;                // kWh
+        double time_to_charge;                  // min
+        double energy_consumed_cruise;          // kWh/km
+        int max_passengers;                     // count
+        double fault_probability;               // per min
+
+};

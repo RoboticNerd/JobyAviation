@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{ACC92122-CC8F-3F06-83B4-027B419AA087}</ProjectGuid>
+    <ProjectGuid>{9E78ADBD-AC73-3407-AF53-001CE6388554}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\frank\source\repos\JobyAviation\build\test\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\frank\Documents\JobyAviation\build\test\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">unit_tests.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">unit_tests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\frank\source\repos\JobyAviation\build\test\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\frank\Documents\JobyAviation\build\test\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">unit_tests.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">unit_tests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\frank\source\repos\JobyAviation\build\test\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\frank\Documents\JobyAviation\build\test\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">unit_tests.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">unit_tests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\frank\source\repos\JobyAviation\build\test\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\frank\Documents\JobyAviation\build\test\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">unit_tests.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">unit_tests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\frank\source\repos\JobyAviation\src;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\frank\Documents\JobyAviation\src;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -105,10 +105,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\frank\source\repos\JobyAviation\src;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\frank\Documents\JobyAviation\src;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\frank\source\repos\JobyAviation\src;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\frank\Documents\JobyAviation\src;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -118,7 +118,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=unit_tests -D TEST_EXECUTABLE=C:/Users/frank/source/repos/JobyAviation/build/test/Debug/unit_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/frank/source/repos/JobyAviation/build/test -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=unit_tests_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=C:/Users/frank/source/repos/JobyAviation/build/test/unit_tests_tests-b12d07c.cmake -P C:/Users/frank/source/repos/JobyAviation/build/_deps/catch2-src/extras/CatchAddTests.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=unit_tests -D TEST_EXECUTABLE=C:/Users/frank/Documents/JobyAviation/build/test/Debug/unit_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/frank/Documents/JobyAviation/build/test -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=unit_tests_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=C:/Users/frank/Documents/JobyAviation/build/test/unit_tests_tests-b12d07c.cmake -P C:/Users/frank/Documents/JobyAviation/build/_deps/catch2-src/extras/CatchAddTests.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,8 +133,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/frank/source/repos/JobyAviation/build/test/Debug/unit_tests.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/frank/source/repos/JobyAviation/build/test/Debug/unit_tests.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/frank/Documents/JobyAviation/build/test/Debug/unit_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/frank/Documents/JobyAviation/build/test/Debug/unit_tests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -143,7 +143,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\frank\source\repos\JobyAviation\src;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\frank\Documents\JobyAviation\src;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -163,10 +163,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\frank\source\repos\JobyAviation\src;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\frank\Documents\JobyAviation\src;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\frank\source\repos\JobyAviation\src;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\frank\Documents\JobyAviation\src;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -176,7 +176,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=unit_tests -D TEST_EXECUTABLE=C:/Users/frank/source/repos/JobyAviation/build/test/Release/unit_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/frank/source/repos/JobyAviation/build/test -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=unit_tests_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=C:/Users/frank/source/repos/JobyAviation/build/test/unit_tests_tests-b12d07c.cmake -P C:/Users/frank/source/repos/JobyAviation/build/_deps/catch2-src/extras/CatchAddTests.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=unit_tests -D TEST_EXECUTABLE=C:/Users/frank/Documents/JobyAviation/build/test/Release/unit_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/frank/Documents/JobyAviation/build/test -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=unit_tests_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=C:/Users/frank/Documents/JobyAviation/build/test/unit_tests_tests-b12d07c.cmake -P C:/Users/frank/Documents/JobyAviation/build/_deps/catch2-src/extras/CatchAddTests.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -191,8 +191,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/frank/source/repos/JobyAviation/build/test/Release/unit_tests.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/frank/source/repos/JobyAviation/build/test/Release/unit_tests.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/frank/Documents/JobyAviation/build/test/Release/unit_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/frank/Documents/JobyAviation/build/test/Release/unit_tests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -201,7 +201,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\frank\source\repos\JobyAviation\src;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\frank\Documents\JobyAviation\src;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -221,10 +221,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\frank\source\repos\JobyAviation\src;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\frank\Documents\JobyAviation\src;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\frank\source\repos\JobyAviation\src;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\frank\Documents\JobyAviation\src;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -234,7 +234,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=unit_tests -D TEST_EXECUTABLE=C:/Users/frank/source/repos/JobyAviation/build/test/MinSizeRel/unit_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/frank/source/repos/JobyAviation/build/test -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=unit_tests_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=C:/Users/frank/source/repos/JobyAviation/build/test/unit_tests_tests-b12d07c.cmake -P C:/Users/frank/source/repos/JobyAviation/build/_deps/catch2-src/extras/CatchAddTests.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=unit_tests -D TEST_EXECUTABLE=C:/Users/frank/Documents/JobyAviation/build/test/MinSizeRel/unit_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/frank/Documents/JobyAviation/build/test -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=unit_tests_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=C:/Users/frank/Documents/JobyAviation/build/test/unit_tests_tests-b12d07c.cmake -P C:/Users/frank/Documents/JobyAviation/build/_deps/catch2-src/extras/CatchAddTests.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -249,8 +249,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/frank/source/repos/JobyAviation/build/test/MinSizeRel/unit_tests.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/frank/source/repos/JobyAviation/build/test/MinSizeRel/unit_tests.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/frank/Documents/JobyAviation/build/test/MinSizeRel/unit_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/frank/Documents/JobyAviation/build/test/MinSizeRel/unit_tests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -259,7 +259,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\frank\source\repos\JobyAviation\src;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\frank\Documents\JobyAviation\src;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -278,10 +278,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\frank\source\repos\JobyAviation\src;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\frank\Documents\JobyAviation\src;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\frank\source\repos\JobyAviation\src;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\frank\Documents\JobyAviation\src;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\src\catch2\..;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\generated-includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -291,7 +291,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=unit_tests -D TEST_EXECUTABLE=C:/Users/frank/source/repos/JobyAviation/build/test/RelWithDebInfo/unit_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/frank/source/repos/JobyAviation/build/test -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=unit_tests_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=C:/Users/frank/source/repos/JobyAviation/build/test/unit_tests_tests-b12d07c.cmake -P C:/Users/frank/source/repos/JobyAviation/build/_deps/catch2-src/extras/CatchAddTests.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=unit_tests -D TEST_EXECUTABLE=C:/Users/frank/Documents/JobyAviation/build/test/RelWithDebInfo/unit_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/frank/Documents/JobyAviation/build/test -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=unit_tests_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=C:/Users/frank/Documents/JobyAviation/build/test/unit_tests_tests-b12d07c.cmake -P C:/Users/frank/Documents/JobyAviation/build/_deps/catch2-src/extras/CatchAddTests.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -306,8 +306,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/frank/source/repos/JobyAviation/build/test/RelWithDebInfo/unit_tests.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/frank/source/repos/JobyAviation/build/test/RelWithDebInfo/unit_tests.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/frank/Documents/JobyAviation/build/test/RelWithDebInfo/unit_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/frank/Documents/JobyAviation/build/test/RelWithDebInfo/unit_tests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -315,11 +315,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\frank\source\repos\JobyAviation\test\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\frank\Documents\JobyAviation\test\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/frank/source/repos/JobyAviation/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/frank/Documents/JobyAviation/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/source/repos/JobyAviation -BC:/Users/frank/source/repos/JobyAviation/build --check-stamp-file C:/Users/frank/source/repos/JobyAviation/build/test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/Documents/JobyAviation -BC:/Users/frank/Documents/JobyAviation/build --check-stamp-file C:/Users/frank/Documents/JobyAviation/build/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -327,12 +327,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\extras\Catch.cmake;C:\Users\frank\source\repos\JobyAviation\cmake\AddCatch2.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\frank\source\repos\JobyAviation\build\test\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\extras\Catch.cmake;C:\Users\frank\Documents\JobyAviation\cmake\AddCatch2.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\frank\Documents\JobyAviation\build\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/frank/source/repos/JobyAviation/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/frank/Documents/JobyAviation/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/source/repos/JobyAviation -BC:/Users/frank/source/repos/JobyAviation/build --check-stamp-file C:/Users/frank/source/repos/JobyAviation/build/test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/Documents/JobyAviation -BC:/Users/frank/Documents/JobyAviation/build --check-stamp-file C:/Users/frank/Documents/JobyAviation/build/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -340,12 +340,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\extras\Catch.cmake;C:\Users\frank\source\repos\JobyAviation\cmake\AddCatch2.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\frank\source\repos\JobyAviation\build\test\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\extras\Catch.cmake;C:\Users\frank\Documents\JobyAviation\cmake\AddCatch2.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\frank\Documents\JobyAviation\build\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/frank/source/repos/JobyAviation/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/frank/Documents/JobyAviation/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/source/repos/JobyAviation -BC:/Users/frank/source/repos/JobyAviation/build --check-stamp-file C:/Users/frank/source/repos/JobyAviation/build/test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/Documents/JobyAviation -BC:/Users/frank/Documents/JobyAviation/build --check-stamp-file C:/Users/frank/Documents/JobyAviation/build/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -353,12 +353,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\extras\Catch.cmake;C:\Users\frank\source\repos\JobyAviation\cmake\AddCatch2.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\frank\source\repos\JobyAviation\build\test\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\extras\Catch.cmake;C:\Users\frank\Documents\JobyAviation\cmake\AddCatch2.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\frank\Documents\JobyAviation\build\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/frank/source/repos/JobyAviation/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/frank/Documents/JobyAviation/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/source/repos/JobyAviation -BC:/Users/frank/source/repos/JobyAviation/build --check-stamp-file C:/Users/frank/source/repos/JobyAviation/build/test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frank/Documents/JobyAviation -BC:/Users/frank/Documents/JobyAviation/build --check-stamp-file C:/Users/frank/Documents/JobyAviation/build/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -366,31 +366,31 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-src\extras\Catch.cmake;C:\Users\frank\source\repos\JobyAviation\cmake\AddCatch2.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\frank\source\repos\JobyAviation\build\test\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-src\extras\Catch.cmake;C:\Users\frank\Documents\JobyAviation\cmake\AddCatch2.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\frank\Documents\JobyAviation\build\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\frank\source\repos\JobyAviation\test\test_calc.cpp" />
+    <ClCompile Include="C:\Users\frank\Documents\JobyAviation\test\test_calc.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\frank\source\repos\JobyAviation\build\ZERO_CHECK.vcxproj">
-      <Project>{9F2A07E0-96F3-3838-899D-D58DEB15C66C}</Project>
+    <ProjectReference Include="C:\Users\frank\Documents\JobyAviation\build\ZERO_CHECK.vcxproj">
+      <Project>{195884BF-FD14-3A67-AE7C-663D31D4D5F0}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\src\Catch2.vcxproj">
+    <ProjectReference Include="C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\src\Catch2.vcxproj">
       <Project>{8d538cbe-01bf-4a2e-a98a-6c368fdf13d7}</Project>
       <Name>Catch2</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\frank\source\repos\JobyAviation\build\_deps\catch2-build\src\Catch2WithMain.vcxproj">
+    <ProjectReference Include="C:\Users\frank\Documents\JobyAviation\build\_deps\catch2-build\src\Catch2WithMain.vcxproj">
       <Project>{8bd3552a-2cfb-4a59-ab15-2031b97ada1e}</Project>
       <Name>Catch2WithMain</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\frank\source\repos\JobyAviation\build\src\classes.vcxproj">
-      <Project>{B3B77002-2945-336A-B650-FFA9872601B1}</Project>
+    <ProjectReference Include="C:\Users\frank\Documents\JobyAviation\build\src\classes.vcxproj">
+      <Project>{014E22BD-A510-3835-AE66-83ACD420926E}</Project>
       <Name>classes</Name>
     </ProjectReference>
   </ItemGroup>

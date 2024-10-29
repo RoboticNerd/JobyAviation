@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/frank/source/repos/JobyAviation
-BuildDirectory: C:/Users/frank/source/repos/JobyAviation/build
+SourceDirectory: C:/Users/frank/Documents/JobyAviation
+BuildDirectory: C:/Users/frank/Documents/JobyAviation/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/frank/source/repos/JobyAviation"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/frank/Documents/JobyAviation"
 MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/frank/source/repos/JobyAviation
+# Install script for directory: C:/Users/frank/Documents/JobyAviation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/frank/source/repos/JobyAviation/build/src/cmake_install.cmake")
+  include("C:/Users/frank/Documents/JobyAviation/build/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/frank/source/repos/JobyAviation/build/test/cmake_install.cmake")
+  include("C:/Users/frank/Documents/JobyAviation/build/test/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/frank/source/repos/JobyAviation/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/frank/Documents/JobyAviation/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

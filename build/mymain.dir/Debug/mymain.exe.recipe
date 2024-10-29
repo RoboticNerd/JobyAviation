@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\frank\source\repos\JobyAviation\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\frank\Documents\JobyAviation\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\frank\source\repos\JobyAviation\build\Debug\mymain.exe</FullPath>
+      <FullPath>C:\Users\frank\Documents\JobyAviation\build\Debug\mymain.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

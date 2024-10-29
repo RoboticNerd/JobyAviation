@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\frank\source\repos\JobyAviation\build\CMakeFiles\d1ae6a228372fcc6b56625e59d0d0f6c\NightlyMemoryCheck.rule">
+    <CustomBuild Include="C:\Users\frank\Documents\JobyAviation\build\CMakeFiles\f7d5f6ec67a0e57229f341308412e945\NightlyMemoryCheck.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\frank\source\repos\JobyAviation\test\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\frank\Documents\JobyAviation\test\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\frank\source\repos\JobyAviation\build\test\CMakeFiles\NightlyMemoryCheck" />
+    <None Include="C:\Users\frank\Documents\JobyAviation\build\test\CMakeFiles\NightlyMemoryCheck" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{F4BFF65D-C716-34FF-8957-6E66D2BCFFA6}</UniqueIdentifier>
+      <UniqueIdentifier>{51C93A1F-BFF0-3696-BDAE-D73751606376}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

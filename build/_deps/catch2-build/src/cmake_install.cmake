@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/frank/source/repos/JobyAviation/build/_deps/catch2-src/src
+# Install script for directory: C:/Users/frank/Documents/JobyAviation/build/_deps/catch2-src/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
